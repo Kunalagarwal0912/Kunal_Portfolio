@@ -243,11 +243,115 @@ header{
     margin-top: 80px ;
 }
 
-/* .projectcontainer .loginform{
-    width: 600px;
-    height: 500px;
+.resume_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4e457220;
+    margin-top: 55px;
+    width: 100%;
+    min-height: 150px
+
 }
-.projectcontainer .myntraclone{
-    width: 600px;
-    height: 500px;
-} */
+
+.Resumepdf{
+    text-decoration: none;
+}
+.Downloadresume{
+    box-sizing: border-box;
+    width: 200px;
+    height: 80px;
+    background-color: #cf7fe8;
+    border: 3px solid rgb(233, 225, 232);
+    border-radius: 25px;
+    font-size: 25px;
+    margin: 15px;
+    padding: 5px;
+}
+
+.Downloadresume:hover{
+    background-color: green;
+    cursor: pointer;
+    scale: 1.1;
+}
+.Downloadresume:active{
+    background-color: red;
+    cursor: pointer;
+    scale: 1.3;
+}
+
+#Contact_Section{
+    margin-top: 25px;
+    background-color: #4e457220;
+    width: 100%;
+    min-height: 17vh;
+
+}
+.contact_container{
+    margin: 25px 18px;
+    display: flex;
+    flex-direction: column;
+  
+
+}
+
+h5{
+    margin: 15px 10px;
+    font-size: 28px;
+}
+
+.email,.phone{
+    font-size: 22px;
+
+
+}
+
+.footer_container{
+    margin-top: 25px;
+    background-color:#4e457220 ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 10px 0;
+    width: 100%;
+    height: 22vh;
+}
+
+.copyrightcontainer{
+    position:relative;
+    left:79%;}
+
+.otherlinks .git,.linke {
+    text-decoration: none;
+    font-size: 38px;
+    margin: 15px 15px;
+}
+
+.git{
+    color: rgb(242, 234, 234);
+}
+.linke{
+    color: rgb(63, 63, 214);
+}
+
+.git:hover{
+    color: green;
+    cursor: pointer;
+    scale: 1.1;
+}
+.git:active{
+    color: red;
+    cursor: pointer;
+    scale: 1.3;
+}
+
+.linke:hover{
+    color: rgb(229, 255, 0);
+    cursor: pointer;
+    scale: 1.1;
+}
+.linke:active{
+    color: rgb(205, 92, 247);
+    cursor: pointer;
+    scale: 1.3;
+}
